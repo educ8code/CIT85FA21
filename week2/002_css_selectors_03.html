@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors 03</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            max-width: 400px;
+            margin: auto;
+            padding: 10px;
+        }
+        .first{
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            
+        }
+        .first::first-letter{
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .first::first-line{
+            text-shadow: 2px 2px 2px gray;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="first">Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Amet, iusto porro est excepturi veniam aliquam autem error incidunt corporis dolore.</p>
+    </div>
+   
+</body>
+</html>

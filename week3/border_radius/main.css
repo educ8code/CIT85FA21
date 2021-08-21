@@ -1,0 +1,17 @@
+/* width
+height
+border-radius
+border
+background-color
+margin
+display */
+
+div {
+    width: 150px;
+    height: 80px;
+    border-radius: 100%;
+    border: 1px solid greenyellow;
+    background-color: yellow;
+    margin: 0 auto;
+    display: inline-block;
+}
